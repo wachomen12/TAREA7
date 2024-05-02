@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg"); /* Establece la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px; /* Establece el ancho máximo del contenedor */
+    margin: 50px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.623); /* Establece el color de fondo con transparencia */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al contenedor */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Centra el logo horizontalmente dentro del contenedor */
+    width: 200px; /* Establece el ancho del logo */
+    height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+h1 {
+    text-align: center; /* Centra el texto */
+    margin-top: 10px; /* Espacio superior */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Espacio inferior entre etiquetas y campos de entrada */
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo cuando el cursor está sobre el botón */
+}
+
+.error {
+    color: red;
+    margin-top: -10px; /* Alinea los mensajes de error */
+    margin-bottom: 10px; /* Espacio inferior entre mensajes de error y campos */
+}
+
+#goToLogin {
+    background-color: #6c757d; /* Color de fondo del botón */
+}
+
+#goToLogin:hover {
+    background-color: #495057; /* Cambia el color de fondo cuando el cursor está sobre el botón */
+}
