@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!-- Tipo de documento -->
+<html lang="es"> <!-- Idioma principal -->
+
+<head> <!-- Cabecera -->
+    <meta charset="UTF-8"> <!-- Codificación -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Escalabilidad -->
+    <link rel="stylesheet" href="login.css"> <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!-- Font Awesome -->
+    <title>Iniciar sesión</title> <!-- Título -->
+</head>
+
+<body> <!-- Cuerpo -->
+    <main> <!-- Contenido principal -->
+        <section class="panel"> <!-- Sección "panel" -->
+            <div class="panel-login"> <!-- División "panel-login" -->
+                <h2>Usuarios</h2> <!-- Título -->
+                <img class="hero-logo" src="LOGO-ULEAM-HORIZONTAL.png" alt="hero de uleam"> <!-- Imagen -->
+                <form id="login-form"> <!-- Formulario de inicio de sesión -->
+                    <div> <!-- Correo electrónico -->
+                        <label for="correo">Correo Electrónico:</label> <!-- Etiqueta -->
+                        <input type="email" id="correo" name="correo" required> <!-- Campo -->
+                    </div>
+                    <div> <!-- Contraseña -->
+                        <label for="contrasena">Contraseña:</label> <!-- Etiqueta -->
+                        <input type="password" id="contrasena" name="contrasena" required> <!-- Campo -->
+                    </div>
+                    <button type="submit">Iniciar Sesión</button> <!-- Botón -->
+                </form>
+                <button id="boton-registro">Registro</button> <!-- Botón -->
+                <button id="boton-admin">Iniciar sesión como administrador</button> <!-- Botón -->
+            </div>
+        </section> <!-- Fin de la sección -->
+    </main> <!-- Fin del contenido -->
+
+    <script src="login.js"></script> <!-- Script -->
+</body> <!-- Fin del cuerpo -->
+
+</html> <!-- Fin del documento -->
